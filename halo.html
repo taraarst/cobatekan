@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.js"></script>
+    <script>
+        alert("hai azik")
+        alert("gimana hari mu hari ini?")
+        alert("mau liat foto orang ultah ga?")
+        alert("coba tekan ok")
+        alert("lagi")
+        alert("siap?")
+    </script>
+    <title>animation test</title>
+    <style>
+        .wrap{
+            width: 90%;
+            margin: 0 auto;
+            
+        }
+        .foto{
+            
+            width: 200px;
+            height: auto;
+            text-align: center;
+            transition: all 0.5s ease-in-out;
+            filter: blur(20px);
+            position: absolute;
+            top: 30%;
+            left: 45%;
+               
+        }
+        .foto img{
+            max-width: 200px;
+            object-fit: cover;      
+            
+            
+        }
+        .foto:hover{            
+            transform: scale(1.2);
+            filter: blur(0);
+            transform: translate(10px);
+            opacity: 1;
+        }
+        .foto h2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                     
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="wrap">
+    <div class="foto">
+        <img src="WhatsApp Image 2024-08-30 at 12.47.49 AM.jpeg" alt="">
+        <h2>HAPPY BIRTHDAY!!</h2>
+    </div>
+</div>
+</body>
+</html>
